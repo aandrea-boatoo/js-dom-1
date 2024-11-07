@@ -28,10 +28,13 @@ img{
 }
 
 button{
-    background-color: blueviolet;
     padding: 5px;
     height: 30px;
     position: relative;
     bottom: 300px;
     border-radius: 15px;
+}
+
+.bgViolet{
+    background-color: blueviolet;
 }

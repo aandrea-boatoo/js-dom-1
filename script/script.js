@@ -9,10 +9,10 @@ function accesoSpento(){
     if (button.innerHTML.includes("Accendi")){
         img.src = "img/yellow_lamp.png";
         button.innerHTML = "Spegni Luce";
-        // button.classList.remove("backgroundColor");
+        button.classList.toggle("bgViolet");
     } else if(button.innerHTML.includes("Spegni")){
         img.src = "img/white_lamp.png";
         button.innerHTML = "Accendi Luce";
-        // button.classList.toggle("backgroundColor");
+        button.classList.toggle("bgViolet");
     }
 }
